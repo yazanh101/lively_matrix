@@ -23,7 +23,7 @@ c.width = window.innerWidth;
 var konkani  = "゠アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレワヰヱヲンヺ・ーヽヿ0123456789"
 // converting the string into an array of single characters
 var characters = konkani.split("");
-var font_size = 14;
+var font_size = 25;
 var columns = c.width/font_size;    // number of columns for the rain
 var gradient = ctx.createLinearGradient(0,10, 0,200);
 // an array of drops - one per column
